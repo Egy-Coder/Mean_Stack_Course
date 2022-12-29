@@ -1,0 +1,41 @@
+
+
+
+<div class="row" style="margin-top: 100px;">
+    <div class="col-xl-4">
+        <img class="rounded d-block mx-auto" height="300"  src="{{data.image}}" alt="Card image">
+    </div>
+  
+    <div class="col-xl-8">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1><span class="badge rounded-pill bg-danger">Price</span> &nbsp;<span style="font-size: 25px;">{{data.price | currency}}</span> </h1> <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1><span class="badge rounded-pill bg-danger">Title</span> &nbsp;<span style="font-size: 25px;">{{data.title}}</span> </h1> <hr>
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col-md-12">
+                <h1><span class="badge rounded-pill bg-danger">Description</span> &nbsp;<span style="font-size: 25px;">{{data.description}}</span></h1> <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <h1><span class="badge rounded-pill bg-danger">Rate</span> &nbsp;<span style="font-size: 25px;">{{data.rating.rate}}</span> </h1> 
+            </div>
+            <div class="col-md-3">
+                <h1><span class="badge rounded-pill bg-danger">Count</span>  &nbsp;<span style="font-size: 25px;">{{data.rating.count}}</span></h1> 
+            </div>
+            <div class="col-md-6">
+                <h1><span class="badge rounded-pill bg-danger">Category</span>  &nbsp;<span style="font-size: 25px;">{{data.category}}</span></h1> 
+            </div>
+        </div>
+    </div>
+</div>

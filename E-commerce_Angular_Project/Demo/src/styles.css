@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('./assets/plugins/materia-bootstrap/materia-bootstrap.css');
+@import url('./assets/plugins/fontawesome/css/all.css');
+@import url('../node_modules/animate.css/animate.css');
+
+
+[placeholder]{
+    color: white !important;
+}
+
+.row .col-xl-4 .card{
+    margin: 20px auto;
+}
+
+.col-xl-3 .card{
+    transition: transform  3s;
+}
+.col-xl-3 .card:hover{
+    transform: rotate(2deg);
+    transition: transform  1s ;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+}
+

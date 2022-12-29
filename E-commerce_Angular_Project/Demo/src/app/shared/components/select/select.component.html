@@ -1,0 +1,7 @@
+<select  class="form-select" (change)="detectChange($event)">
+    <option value="all">-- select category --</option>
+    <option value="{{category}}" *ngFor="let category of data">
+      {{category}}
+    </option>
+  </select>  
+
